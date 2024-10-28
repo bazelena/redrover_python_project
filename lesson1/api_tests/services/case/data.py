@@ -1,8 +1,40 @@
 create_case_dict = {
-    "id": 0,
-    "name": "Тестовое задание",
-    "description": "Тестовое задание",
+    "id": 1,
+    "name": "Имя",
+    "description": "Описание",
+    "steps": [
+        "Шаг 1",
+        "Шаг 2",
+        "Шаг 3"
+    ],
+    "expected_result": "Ожидаемый результат",
+    "priority": "низкий",
+}
+
+
+create_high_priority_case_dict = {
+    "id": 2,
+    "name": "Имя",
+    "description": "Описание",
+    "steps": [
+        "Шаг 1",
+        "Шаг 2",
+        "Шаг 3"
+    ],
+    "expected_result": "Ожидаемый результат",
     "priority": "высокий",
-    "steps": ["шаг 1", "шаг 2", "шаг 3"],
-    "expected_result": "Задание выполнено",
+}
+
+
+create_low_priority_case_dict = {
+    "id": 2,
+    "name": "Имя",
+    "description": "Описание",
+    "steps": [
+        "Шаг 1",
+        "Шаг 2",
+        "Шаг 3"
+    ],
+    "expected_result": "Ожидаемый результат",
+    "priority": "низкий",
 }
